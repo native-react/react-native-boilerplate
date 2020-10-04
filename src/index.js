@@ -13,7 +13,6 @@ export default class App extends Component {
     }
 
     async componentDidMount() {
-        // let isLogin = await LocalStorage.read("isLogin");
         PrintLog("isLogin >> ", isLogin);
         let isLogin = true;
         this.setState({ isLogin });
